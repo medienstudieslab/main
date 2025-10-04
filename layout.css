@@ -24,3 +24,7 @@ ul {
 nav li {
   display: inline;
 }
+
+ul img {
+  width: 400px;
+}
