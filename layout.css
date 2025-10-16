@@ -4,7 +4,7 @@ body {
 
 nav a {
   text-decoration: none;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 68, 0);
 
   font-size: 64px;
   transition: 0.2s;
@@ -27,4 +27,67 @@ nav li {
 
 ul img {
   width: 400px;
+}
+
+.disable_l {
+  opacity: 20%;
+}
+#hov1:hover::after {
+  content: url("first.svg");
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+
+#hov2:hover::after {
+  content: url("Group 157.svg");
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+
+#hov3:hover::after {
+  content: url("inp.svg");
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+
+#hov4:hover::after {
+  content: url("typ.svg");
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+#hov5:hover::after {
+  content: url("postrs.svg");
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+#hov6:hover::after {
+  content: url("grids.svg");
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+#hov7:hover::after {
+  content: url("tree.svg");
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+#hov8:hover::after {
+  content: url("book.svg");
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
 }
